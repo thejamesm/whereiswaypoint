@@ -1,19 +1,24 @@
 <?php
-$urls = file('list.txt', FILE_IGNORE_NEW_LINES);
+$url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/list.txt';
+$adjectives = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adjectives.txt';
+$prefix_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes.txt';
+$prefixes_that_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes_that.txt';
+
+$urls = file($url_file, FILE_IGNORE_NEW_LINES);
 $url = $urls[mt_rand(0, count($urls) - 1)];
 $link = "<a href=\"http://$url\">$url</a>";
 
-$adjectives = file('adjectives.txt', FILE_IGNORE_NEW_LINES);
+$adjectives = file($adjectives_file, FILE_IGNORE_NEW_LINES);
 $adjective = $adjectives[mt_rand(0, count($adjectives) - 1)];
 
 switch (mt_rand(0, 5)) {
     case 0:
-        $prefixes = file('prefixes.txt', FILE_IGNORE_NEW_LINES);
+        $prefixes = file($prefixes_file, FILE_IGNORE_NEW_LINES);
         $prefix = $prefixes[mt_rand(0, count($prefixes) - 1)];
         $string = "$prefix $link the $adjective Waypoint URL.";
         break;
     case 1:
-        $prefixes = file('prefixes_that.txt', FILE_IGNORE_NEW_LINES);
+        $prefixes = file($prefixes_that_file, FILE_IGNORE_NEW_LINES);
         $prefix = $prefixes[mt_rand(0, count($prefixes) - 1)];
         $string = "$prefix that $link is the $adjective Waypoint URL.";
         break;
