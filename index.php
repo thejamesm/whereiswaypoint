@@ -1,6 +1,6 @@
 <?php
 $url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/list.txt';
-$adjectives = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adjectives.txt';
+$adjectives_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adjectives.txt';
 $prefix_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes.txt';
 $prefixes_that_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes_that.txt';
 
