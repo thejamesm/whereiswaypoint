@@ -1,1 +1,2 @@
 discourse.zone
+www.goblin.zone
