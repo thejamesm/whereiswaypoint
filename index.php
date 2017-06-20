@@ -37,6 +37,7 @@ switch (mt_rand(0, 5)) {
     <body>
         <article>
             <?php echo $string; ?>
+
         </article>
     </body>
 </html>
