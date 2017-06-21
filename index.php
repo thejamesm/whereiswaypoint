@@ -11,7 +11,7 @@ $link = "<a href=\"http://$url\">$url</a>";
 $adjectives = file($adjectives_file, FILE_IGNORE_NEW_LINES);
 $adjective = $adjectives[mt_rand(0, count($adjectives) - 1)];
 
-switch (mt_rand(0, 5)) {
+switch (mt_rand(0, 8)) {
     case 0:
         $prefixes = file($prefixes_file, FILE_IGNORE_NEW_LINES);
         $prefix = $prefixes[mt_rand(0, count($prefixes) - 1)];
@@ -23,7 +23,8 @@ switch (mt_rand(0, 5)) {
         $string = "$prefix that $link is the $adjective Waypoint URL.";
         break;
     default:
-        $string = "The $adjective URL for Waypoint is $link";
+        if (mt_rand(0, 1)) $string = "The $adjective URL for Waypoint is $link";
+        else $string = "The $adjective Waypoint URL is $link";
 }
 ?>
 <!DOCTYPE html>
