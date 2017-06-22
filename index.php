@@ -1,10 +1,13 @@
 <?php
 $url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/list.txt';
+$forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
 $adjectives_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adjectives.txt';
 $prefixes_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes.txt';
 $prefixes_that_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes_that.txt';
 
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
+$forums = file($forum_file, FILE_IGNORE_NEW_LINES);
+$urls = array_merge($urls, $forums);
 $url = $urls[mt_rand(0, count($urls) - 1)];
 $link = "<a href=\"http://$url\">$url</a>";
 
