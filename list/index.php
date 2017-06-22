@@ -18,7 +18,7 @@ $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
             <h1>Waypoint</h1>
 <?php
 foreach ($urls as $url) {
-    echo "<a href=\"$url\">$url</a><br>\n";
+    echo "<a href=\"http://$url\">$url</a><br>\n";
 }
 ?>
         </article>
@@ -27,7 +27,7 @@ foreach ($urls as $url) {
             <h1>Forums</h1>
 <?php
 foreach ($forums as $forum) {
-    echo "<a href=\"$forum\">$forum</a><br>\n";
+    echo "<a href=\"http://$forum\">$forum</a><br>\n";
 }
 ?>
 
