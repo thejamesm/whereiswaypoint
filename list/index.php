@@ -3,6 +3,8 @@ $url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
 $forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
+$group_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/groups.txt';
+$groups = file($group_file, FILE_IGNORE_NEW_LINES);
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,6 +30,16 @@ foreach ($urls as $url) {
 <?php
 foreach ($forums as $forum) {
     echo "<a href=\"http://$forum\">$forum</a><br>\n";
+}
+?>
+
+        </article>
+
+        <article>
+            <h1>Groups</h1>
+<?php
+foreach ($groups as $group) {
+        echo "<a href=\"http://$group\">$group</a><br>\n";
 }
 ?>
 
