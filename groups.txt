@@ -1,2 +1,4 @@
 disco.whereiswaypoint.info
 groups.whereiswaypoint.info
+whereiswaypoint.info/disco
+whereiswaypoint.info/groups
