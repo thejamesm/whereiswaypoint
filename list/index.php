@@ -5,6 +5,9 @@ $forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/maste
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
 $social_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/social.txt';
 $socials = file($social_file, FILE_IGNORE_NEW_LINES);
+
+$thread = 'https://forum.waypoint.vice.com/t/4695';
+$discord = 'https://discord.gg/zJMJZNQ23';
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +15,7 @@ $socials = file($social_file, FILE_IGNORE_NEW_LINES);
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
         <title>Waypoint redirects</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400&subset=latin-ext">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400&subset=latin-ext">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -32,7 +35,6 @@ foreach ($forums as $forum) {
     echo "<a href=\"http://$forum\">$forum</a><br>\n";
 }
 ?>
-
         </article>
 
         <article>
@@ -42,7 +44,15 @@ foreach ($socials as $social) {
         echo "<a href=\"http://$social\">$social</a><br>\n";
 }
 ?>
+        </article>
 
+        <article>
+            <h1>Info</h1>
+            <span class="small">
+                By <a href="https://twitter.com/TheJamesM">@TheJamesM</a><br>
+                Compiled by <a href="<?= $thread ?>">this forum thread</a>
+                and <a href="<?= $discord ?>">the Discord channel</a>.
+            </span>
         </article>
     </body>
 </html>

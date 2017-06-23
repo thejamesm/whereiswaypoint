@@ -30,3 +30,12 @@ a, a:active, a:focus, a:hover {
 a:active, a:focus, a:hover {
     outline: none;
 }
+
+.small {
+    font-size: 14px;
+    color: #909090;
+}
+
+.small a {
+    font-weight: 700;
+}
