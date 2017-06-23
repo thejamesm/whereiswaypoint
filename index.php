@@ -30,10 +30,12 @@ switch (mt_rand(0, 8)) {
         $adverbs = file($adverbs_file, FILE_IGNORE_NEW_LINES);
         $adverb = $adverbs[mt_rand(0, count($adverbs) - 1)];
         $string = "The Waypoint URL is $adverb $link.";
+        break;
     case 3:
         $adverbs = file($adverbs_file, FILE_IGNORE_NEW_LINES);
         $adverb = $adverbs[mt_rand(0, count($adverbs) - 1)];
         $string = "The $adjective Waypoint URL is $adverb $link.";
+        break;
     default:
         if (mt_rand(0, 1)) $string = "The $adjective URL for Waypoint is $link";
         else $string = "The $adjective Waypoint URL is $link";
