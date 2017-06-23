@@ -1,10 +1,10 @@
 <?php
-$url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/list.txt';
+$url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/urls.txt';
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
 $forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
-$group_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/groups.txt';
-$groups = file($group_file, FILE_IGNORE_NEW_LINES);
+$social_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/social.txt';
+$socials = file($social_file, FILE_IGNORE_NEW_LINES);
 ?>
 <!DOCTYPE html>
 <html>
@@ -36,10 +36,10 @@ foreach ($forums as $forum) {
         </article>
 
         <article>
-            <h1>Groups</h1>
+            <h1>Social</h1>
 <?php
-foreach ($groups as $group) {
-        echo "<a href=\"http://$group\">$group</a><br>\n";
+foreach ($socials as $social) {
+        echo "<a href=\"http://$social\">$social</a><br>\n";
 }
 ?>
 

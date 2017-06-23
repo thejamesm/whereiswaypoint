@@ -1,5 +1,5 @@
 <?php
-$url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/list.txt';
+$url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/urls.txt';
 $forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
 $adjectives_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adjectives.txt';
 $adverbs_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adverbs.txt';
