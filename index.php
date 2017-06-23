@@ -2,6 +2,7 @@
 $url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/list.txt';
 $forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
 $adjectives_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adjectives.txt';
+$adverbs_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adverbs.txt';
 $prefixes_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes.txt';
 $prefixes_that_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes_that.txt';
 
