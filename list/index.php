@@ -5,6 +5,8 @@ $forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/maste
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
 $social_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/social.txt';
 $socials = file($social_file, FILE_IGNORE_NEW_LINES);
+$music_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/music.txt';
+$musics = file($music_file, FILE_IGNORE_NEW_LINES);
 
 $thread = 'https://forum.waypoint.vice.com/t/4695';
 $discord = 'https://discord.gg/zJMJZNQ23';
@@ -42,6 +44,15 @@ foreach ($forums as $forum) {
 <?php
 foreach ($socials as $social) {
         echo "<a href=\"http://$social\">$social</a><br>\n";
+}
+?>
+        </article>
+
+        <article>
+            <h1>Music</h1>
+<?php
+foreach ($musics as $music) {
+        echo "<a href=\"http://$music\">$music</a><br>\n";
 }
 ?>
         </article>
