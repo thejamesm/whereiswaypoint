@@ -1,2 +1,3 @@
+discourse.pubgtips.info
 discourse.zone
 goblin.zone
