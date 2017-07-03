@@ -9,7 +9,7 @@ $music_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/maste
 $musics = file($music_file, FILE_IGNORE_NEW_LINES);
 
 $thread = 'https://forum.waypoint.vice.com/t/4695';
-$discord = 'https://discord.gg/zJMJZNQ23';
+$discord = 'http://whereiswaypoint.info/groups';
 ?>
 <!DOCTYPE html>
 <html>
