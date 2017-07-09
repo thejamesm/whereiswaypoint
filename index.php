@@ -19,22 +19,22 @@ switch (mt_rand(0, 8)) {
     case 0:
         $prefixes = file($prefixes_file, FILE_IGNORE_NEW_LINES);
         $prefix = $prefixes[mt_rand(0, count($prefixes) - 1)];
-        $string = "$prefix $link the $adjective Waypoint URL.";
+        $string = "$prefix $link the $adjective Waypoint URL";
         break;
     case 1:
         $prefixes = file($prefixes_that_file, FILE_IGNORE_NEW_LINES);
         $prefix = $prefixes[mt_rand(0, count($prefixes) - 1)];
-        $string = "$prefix that $link is the $adjective Waypoint URL.";
+        $string = "$prefix that $link is the $adjective Waypoint URL";
         break;
     case 2:
         $adverbs = file($adverbs_file, FILE_IGNORE_NEW_LINES);
         $adverb = $adverbs[mt_rand(0, count($adverbs) - 1)];
-        $string = "The Waypoint URL is $adverb $link.";
+        $string = "The Waypoint URL is $adverb $link";
         break;
     case 3:
         $adverbs = file($adverbs_file, FILE_IGNORE_NEW_LINES);
         $adverb = $adverbs[mt_rand(0, count($adverbs) - 1)];
-        $string = "The $adjective Waypoint URL is $adverb $link.";
+        $string = "The $adjective Waypoint URL is $adverb $link";
         break;
     default:
         if (mt_rand(0, 1)) $string = "The $adjective URL for Waypoint is $link";
