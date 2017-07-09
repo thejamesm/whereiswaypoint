@@ -50,9 +50,9 @@ switch (mt_rand(0, 8)) {
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <article>
+        <div>
             <?php echo $string; ?>
 
-        </article>
+        </div>
     </body>
 </html>

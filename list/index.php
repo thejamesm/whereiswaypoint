@@ -21,49 +21,49 @@ $discord = 'http://whereiswaypoint.info/groups';
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <article>
+        <section>
             <h1>Waypoint</h1>
 <?php
 foreach ($urls as $url) {
     echo "<a href=\"http://$url\">$url</a><br>\n";
 }
 ?>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <h1>Forums</h1>
 <?php
 foreach ($forums as $forum) {
     echo "<a href=\"http://$forum\">$forum</a><br>\n";
 }
 ?>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <h1>Social</h1>
 <?php
 foreach ($socials as $social) {
         echo "<a href=\"http://$social\">$social</a><br>\n";
 }
 ?>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <h1>Music</h1>
 <?php
 foreach ($musics as $music) {
         echo "<a href=\"http://$music\">$music</a><br>\n";
 }
 ?>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <h1>Info</h1>
             <span class="small">
                 By <a href="https://twitter.com/TheJamesM">@TheJamesM</a><br>
                 Compiled by <a href="<?= $thread ?>">this forum thread</a>
                 and <a href="<?= $discord ?>">the Discord channel</a>.
             </span>
-        </article>
+        </section>
     </body>
 </html>
