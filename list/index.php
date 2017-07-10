@@ -1,6 +1,8 @@
 <?php
 $url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/urls.txt';
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
+$live_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/live.txt';
+$lives = file($live_file, FILE_IGNORE_NEW_LINES);
 $forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
 $social_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/social.txt';
@@ -26,6 +28,15 @@ $discord = 'http://whereiswaypoint.info/groups';
 <?php
 foreach ($urls as $url) {
     echo "<a href=\"http://$url\">$url</a><br>\n";
+}
+?>
+        </section>
+
+        <section>
+            <h1>Live</h1>
+<?php
+foreach ($lives as $live) {
+    echo "<a href=\"http://$live\">$live</a><br>\n";
 }
 ?>
         </section>
