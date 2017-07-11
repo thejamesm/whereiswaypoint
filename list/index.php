@@ -1,13 +1,15 @@
 <?php
-$url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/urls.txt';
+$p = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master';
+
+$url_file = "$p/urls.txt";
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
-$live_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/live.txt';
+$live_file = "$p/live.txt";
 $lives = file($live_file, FILE_IGNORE_NEW_LINES);
-$forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
+$forum_file = "$p/forums.txt";
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
-$social_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/social.txt';
+$social_file = "$p/social.txt";
 $socials = file($social_file, FILE_IGNORE_NEW_LINES);
-$music_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/music.txt';
+$music_file = "$p/music.txt";
 $musics = file($music_file, FILE_IGNORE_NEW_LINES);
 
 $thread = 'https://forum.waypoint.vice.com/t/4695';

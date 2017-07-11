@@ -1,10 +1,12 @@
 <?php
-$url_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/urls.txt';
-$forum_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/forums.txt';
-$adjectives_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adjectives.txt';
-$adverbs_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/adverbs.txt';
-$prefixes_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes.txt';
-$prefixes_that_file = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master/prefixes_that.txt';
+$p = 'https://raw.githubusercontent.com/thejamesm/whereiswaypoint/master';
+
+$url_file = "$p/urls.txt";
+$forum_file = "$p/forums.txt";
+$adjectives_file = "$p/adjectives.txt";
+$adverbs_file = "$p/adverbs.txt";
+$prefixes_file = "$p/prefixes.txt";
+$prefixes_that_file = "$p/prefixes_that.txt";
 
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
