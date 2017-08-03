@@ -48,6 +48,7 @@ vice.waypoint.austinwalkergames.games/com
 waypoint.arf.dog
 waypoint.moist.horse
 waypoint.zone
+wegot.hoisted.online
 whatsgoodinter.net
 youalreadyknowwhatit.biz
 youcanthave.halfana.press
