@@ -75,7 +75,10 @@ foreach ($musics as $music) {
             <span class="small">
                 By <a href="https://twitter.com/TheJamesM">@TheJamesM</a><br>
                 Compiled by <a href="<?= $thread ?>">this forum thread</a>
-                and <a href="<?= $discord ?>">the Discord channel</a>.
+                and <a href="<?= $discord ?>">the Discord channel</a><br>
+                Follow
+                <a href="https://twitter.com/WaypointURLs">@WaypointURLs</a>
+                for a daily URL in your Twitter feed
             </span>
         </section>
     </body>
