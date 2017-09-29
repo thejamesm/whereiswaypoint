@@ -11,6 +11,8 @@ $social_file = "$p/social.txt";
 $socials = file($social_file, FILE_IGNORE_NEW_LINES);
 $music_file = "$p/music.txt";
 $musics = file($music_file, FILE_IGNORE_NEW_LINES);
+$twitter_acct_file = "$p/twitter_accts.txt";
+$twitter_accts = file($twitter_acct_file, FILE_IGNORE_NEW_LINES);
 
 $thread = 'https://forum.waypoint.vice.com/t/4695';
 $discord = 'http://whereiswaypoint.info/groups';
@@ -66,6 +68,15 @@ foreach ($socials as $social) {
 <?php
 foreach ($musics as $music) {
         echo "<a href=\"http://$music\">$music</a><br>\n";
+}
+?>
+        </section>
+
+        <section>
+            <h1>Twitter</h1>
+<?php
+foreach ($twitter_accts as $twitter_acct) {
+        echo "<a href=\"http://twitter.com/$twitter_acct\">@$twitter_acct</a><br>\n";
 }
 ?>
         </section>
