@@ -22,6 +22,9 @@ h1 {
 }
 
 a, a:active, a:focus, a:hover {
+    display: inline-block;
+    margin-left: 1em;
+    text-indent: -1em;
     word-wrap: break-word;
     color: #1fd9b7;
     text-decoration: none;
