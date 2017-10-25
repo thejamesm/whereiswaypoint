@@ -61,6 +61,7 @@ waypoint.moist.horse
 waypoint.zone
 wegot.hoisted.online
 whatsgoodinter.net
+woke.games
 wokegamers.life
 youalreadyknowwhatit.biz
 youcanthave.halfana.press
