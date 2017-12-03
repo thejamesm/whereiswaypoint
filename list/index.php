@@ -84,7 +84,6 @@ foreach ($twitter_accts as $twitter_acct) {
         <section>
             <h1>Info</h1>
             <span class="small">
-                By <a href="https://twitter.com/TheJamesM">@TheJamesM</a><br>
                 Compiled by <a href="<?= $thread ?>">this forum thread</a>
                 and <a href="<?= $discord ?>">the Discord channel</a><br>
             </span>
