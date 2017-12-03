@@ -11,6 +11,7 @@ $prefixes_that_file = "$p/prefixes_that.txt";
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
 $urls = array_merge($urls, $forums);
+$urls = array_values(preg_grep('/^!/', $urls, PREG_GREP_INVERT));
 $url = $urls[mt_rand(0, count($urls) - 1)];
 $link = "<a href=\"http://$url\">$url</a>";
 
