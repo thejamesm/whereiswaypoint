@@ -1,10 +1,10 @@
 aregames.art
 arkane-aust.in
-austinwalker.games
+!austinwalker.games
 austinwalkergames.games/games.games
 averagebomb.com
 bastionfucks.com
-bazinga.zone
+!bazinga.zone
 boatjazz.org
 borntodie.world/isafuck
 bunchan.love
@@ -64,6 +64,6 @@ wegot.hoisted.online
 whatsgoodinter.net
 woke.games
 wokegamers.life
-youalreadyknowwhatit.biz
+!youalreadyknowwhatit.biz
 youcanthave.halfana.press
 👻📰.ws
