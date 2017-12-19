@@ -26,6 +26,7 @@ gamesare.art
 gamesarenot.art
 gamingadvice.email
 giantbomb2.com
+giantf.art
 goatseinvestigators.club
 goldinvideo.com
 goopscoop.online
