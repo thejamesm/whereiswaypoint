@@ -8,6 +8,7 @@ disco.whereiswaypoint.info
 goodeveningyouarelisteningtothreemovesahead.austinwalkergames.games
 groups.whereiswaypoint.info
 junior.mints.austinwalkergames.games
+presidentofonline.games
 scoops.austinwalkergames.games
 whereiswaypoint.info/disco
 whereiswaypoint.info/groups
