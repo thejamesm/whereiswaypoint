@@ -65,6 +65,7 @@ vice.waypoint.austinwalkergames.games/com
 waypoint.arf.dog
 waypoint.moist.horse
 waypoint.zone
+weaboo.website
 wegot.hoisted.online
 whatsgoodinter.net
 woke.games
