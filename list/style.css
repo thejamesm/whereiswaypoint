@@ -23,6 +23,7 @@ h1 {
 
 a, a:active, a:focus, a:hover, .expired {
     display: inline-block;
+    max-width: 100%;
     margin-left: 1em;
     text-indent: -1em;
     word-wrap: break-word;
