@@ -1,5 +1,5 @@
 discourse.pubgtips.info
 discourse.zone
 forum.new.donk.city
-goblin.zone
+!goblin.zone
 hottake.club
