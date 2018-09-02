@@ -53,6 +53,7 @@ nationalise.party
 nationalize.party
 !neverdiedfromared.zone
 new.donk.city
+new.yark.city
 !newyorkwitcher.online
 pizza.goblin.zone
 poppliopals.moe
@@ -77,7 +78,7 @@ weaboo.website
 !wegot.hoisted.online
 whatsgoodinter.net
 woke.games
-wokegamers.life
+!wokegamers.life
 !youalreadyknowwhatit.biz
 !youcanthave.halfana.press
 !👻📰.ws
