@@ -2,4 +2,4 @@
 discourse.zone
 forum.new.donk.city
 !goblin.zone
-hottake.club
+!hottake.club
