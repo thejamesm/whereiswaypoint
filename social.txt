@@ -11,5 +11,6 @@ groups.whereiswaypoint.info
 junior.mints.austinwalkergames.games
 presidentofonline.games
 scoops.austinwalkergames.games
+takesobad.today
 whereiswaypoint.info/disco
 whereiswaypoint.info/groups
