@@ -23,6 +23,8 @@ $url_file = "$p/urls.txt";
 $urls = file($url_file, FILE_IGNORE_NEW_LINES);
 $live_file = "$p/live.txt";
 $live = file($live_file, FILE_IGNORE_NEW_LINES);
+$video_file = "$p/video.txt";
+$video = file($video_file, FILE_IGNORE_NEW_LINES);
 $forum_file = "$p/forums.txt";
 $forums = file($forum_file, FILE_IGNORE_NEW_LINES);
 $social_file = "$p/social.txt";
@@ -48,6 +50,7 @@ $discord = 'http://whereiswaypoint.info/groups';
 <?php
 addSection('Waypoint', $urls);
 addSection('Live', $live);
+addSection('Video', $video);
 addSection('Forums', $forums);
 addSection('Social', $social);
 addSection('Music', $music);
