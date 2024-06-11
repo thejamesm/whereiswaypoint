@@ -1,4 +1,3 @@
 # Where is Waypoint?
-An indispensable tool for locating the elusive Waypoint.
 
-Please keep the lists alphabetical.
+With the sad passing of Waypoint, and limited money to spend on frivolous domain names, this project and associated websites are no longer active.
